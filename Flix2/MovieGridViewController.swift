@@ -77,7 +77,22 @@ class MovieGridViewController: UIViewController,UICollectionViewDataSource, UICo
         return cell
     }
 
-    
+    override func prepare(for segue:
+                          UIStoryboardSegue, sender: Any?) {
+        print("Loading up the detials screen")
+        
+        // Find the selected movie
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        // Pass the selcted movie to the detials view controller
+        
+        let gridDetailsViewController = segue.destination as! MovieGridDetailsViewController
+        gridDetailsViewController.movie = movie
+        
+        collectionView.deselectItem(at: indexPath, animated: true)
+    }
 
     /*
     // MARK: - Navigation

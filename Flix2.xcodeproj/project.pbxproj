@@ -23,6 +23,7 @@
 		40234BF128D3F26F004406FC /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 40234BF028D3F26F004406FC /* AlamofireImage */; };
 		40D3D4C928DE8D8C008CF0C2 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3D4C828DE8D8C008CF0C2 /* MovieGridViewController.swift */; };
 		40D3D4CB28DE9002008CF0C2 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3D4CA28DE9002008CF0C2 /* MovieGridCell.swift */; };
+		40D3D4CD28DE9D13008CF0C2 /* MovieGridDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3D4CC28DE9D13008CF0C2 /* MovieGridDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		40234BED28D3ED21004406FC /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		40D3D4C828DE8D8C008CF0C2 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		40D3D4CA28DE9002008CF0C2 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		40D3D4CC28DE9D13008CF0C2 /* MovieGridDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				40209E3E28DE62D100187042 /* MovieDetailsViewController.swift */,
 				40D3D4C828DE8D8C008CF0C2 /* MovieGridViewController.swift */,
 				40D3D4CA28DE9002008CF0C2 /* MovieGridCell.swift */,
+				40D3D4CC28DE9D13008CF0C2 /* MovieGridDetailsViewController.swift */,
 			);
 			path = Flix2;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				40209E3F28DE62D100187042 /* MovieDetailsViewController.swift in Sources */,
 				40234BC228D3DB77004406FC /* ViewController.swift in Sources */,
+				40D3D4CD28DE9D13008CF0C2 /* MovieGridDetailsViewController.swift in Sources */,
 				40234BBE28D3DB77004406FC /* AppDelegate.swift in Sources */,
 				40234BEE28D3ED21004406FC /* MovieCell.swift in Sources */,
 				40234BC028D3DB77004406FC /* SceneDelegate.swift in Sources */,
